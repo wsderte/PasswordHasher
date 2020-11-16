@@ -17,6 +17,7 @@ namespace XUnitTestProject2 {
 
         [Fact]
         public void TestInit() {
+           
 
             String a = PasswordHasher.GetHash("1111");
             PasswordHasher.Init("wsd", 5);
@@ -32,8 +33,20 @@ namespace XUnitTestProject2 {
             PasswordHasher.Init(null, 6);
             Assert.Equal(a, PasswordHasher.GetHash("1111"));
 
+
+
         }
 
-    }
+
+        [Fact]
+        public void TestInit2()
+        {
+            PasswordHasher.Init("wsd", 0);
+            Assert.Equal(PasswordHasher.GetHash("1111"), PasswordHasher.GetHash("1111"));
+            PasswordHasher.Init("wsd", 4294967295);
+            Assert.Equal(PasswordHasher.GetHash("1111"), PasswordHasher.GetHash("1111"));
+        }
+
+        }
 }
 
