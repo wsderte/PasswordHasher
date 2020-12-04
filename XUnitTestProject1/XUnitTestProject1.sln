@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFuncsTests", "HashFuncsTests.csproj", "{54002606-97BE-4E9E-9F30-56D0F573C2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIG.PasswordHashingUtils", "..\IIG.PasswordHashingUtils\IIG.PasswordHashingUtils.csproj", "{685E8988-1197-431C-BB7F-5C37AA062360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54002606-97BE-4E9E-9F30-56D0F573C2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54002606-97BE-4E9E-9F30-56D0F573C2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54002606-97BE-4E9E-9F30-56D0F573C2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54002606-97BE-4E9E-9F30-56D0F573C2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685E8988-1197-431C-BB7F-5C37AA062360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685E8988-1197-431C-BB7F-5C37AA062360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685E8988-1197-431C-BB7F-5C37AA062360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685E8988-1197-431C-BB7F-5C37AA062360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1C45D04-1FE5-4FED-A7E9-405D15CEDC7E}
+	EndGlobalSection
+EndGlobal
